@@ -3,7 +3,6 @@ import { defineUserConfig, defaultTheme } from "vuepress";
 export default defineUserConfig({
   title: "FE Skill",
   description: "前端必知必会、前端面试题",
-  base: "/",
   theme: defaultTheme({
     logo: "/assets/img/logo.png",
     navbar: [
