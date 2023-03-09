@@ -1,4 +1,4 @@
-# 盒模型
+# 盒模型 1
 
 - 有两种， IE 盒子模型、W3C 盒子模型；
 - 盒模型： 内容(content)、填充(padding)、边框(border)、边界(margin)；
