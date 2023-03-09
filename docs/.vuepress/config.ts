@@ -1,6 +1,4 @@
-import { defineUserConfig } from "vuepress";
-
-import { defaultTheme } from "@vuepress/theme-default";
+import { defineUserConfig, defaultTheme } from "vuepress";
 
 export default defineUserConfig({
   title: "FE Skill",
