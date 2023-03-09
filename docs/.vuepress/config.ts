@@ -1,9 +1,8 @@
 module.exports = {
   title: "FE Skill",
   description: "前端必知必会、前端面试题",
-  base: "./docs",
+  base: "/docs",
   themeConfig: {
-    logo: "/assets/img/logo.png",
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
