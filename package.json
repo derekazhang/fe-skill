@@ -8,6 +8,7 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "vue-template-compiler": "^2.7.14",
     "vuepress": "^1.9.9"
   }
 }
