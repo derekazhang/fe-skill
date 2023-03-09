@@ -4,9 +4,28 @@ module.exports = {
   base: "/fe-skill/",
   themeConfig: {
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/" },
-      { text: "External", link: "https://google.com" },
+      {
+        text: "前端资源",
+        link: "/",
+        items: [
+          { text: "前端资源", link: "/" },
+          { text: "常用库收集", link: "/wheel/" },
+          { text: "前端库收集", link: "/repository/" },
+        ],
+      },
+      {
+        text: "前端知识图谱",
+        items: [
+          { text: "Web前端知识图谱", link: "/web-map/" },
+          { text: "HTML+CSS", link: "/html-css/" },
+          { text: "JavaScript", link: "/javascript/" },
+        ],
+      },
+      { text: "学习技巧", link: "/skill/" },
+      { text: "常用工具", link: "/tools/" },
+      { text: "摸鱼时间", link: "/fish/" },
+      { text: "摘录", link: "/excerpt/" },
+      { text: "关于", link: "/about/" },
     ],
     sidebar: [
       {
