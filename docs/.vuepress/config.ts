@@ -27,23 +27,23 @@ module.exports = {
       { text: "摘录", link: "/excerpt/" },
       { text: "关于", link: "/about/" },
     ],
-    sidebar: [
-      {
-        title: "CSS", // 必要的
-        path: "/css/", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-        collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 1, // 可选的, 默认值是 1
-        initialOpenGroupIndex: 0,
-        children: ["/css/box"],
-      },
-      {
-        title: "Group 2",
-        children: [
-          /* ... */
-        ],
-        initialOpenGroupIndex: -1, // 可选的, 默认值是 0
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     title: "CSS", // 必要的
+    //     path: "/css/", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+    //     collapsable: true, // 可选的, 默认值是 true,
+    //     sidebarDepth: 1, // 可选的, 默认值是 1
+    //     initialOpenGroupIndex: 0,
+    //     children: ["/css/box"],
+    //   },
+    //   {
+    //     title: "Group 2",
+    //     children: [
+    //       /* ... */
+    //     ],
+    //     initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+    //   },
+    // ],
 
     lastUpdated: "最近更新",
     // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
