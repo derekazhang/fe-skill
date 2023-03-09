@@ -1,17 +1,15 @@
 ---
 home: true
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
+heroText: FE-Skill
+tagline: 前端全栈进阶笔记 & 面试指南
+actionText: 开始学习 →
+actionLink: /css/box
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue驱动
-    details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+  - title: 详细深入
+    details: 每一个知识点都会查阅大量的资料，力求做到详细且深入
+  - title: 视频配套
+    details: 在每个知识点总结后，我会尽量配视频讲解，视频会放在每个文章的顶部
+  - title: 全栈知识点
+    details: 本人的学习路径，前端全栈的各个方面
+footer: MIT Licensed | Copyright © 2023-present Aimin Zhang
 ---
-
-# Hello World

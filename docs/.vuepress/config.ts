@@ -1,6 +1,6 @@
 module.exports = {
   title: "FE Skill",
-  description: "前端必知必会、前端面试题",
+  description: "前端必知必会面试题",
   base: "/fe-skill/",
   themeConfig: {
     nav: [
