@@ -14,6 +14,10 @@ module.exports = {
         ],
       },
       {
+        text: "知识总结",
+        items: [{ text: "xr-frame", link: "/xr-frame/" }],
+      },
+      {
         text: "前端知识图谱",
         items: [
           { text: "Web前端知识图谱", link: "/web-map/" },

@@ -1,7 +1,7 @@
 ---
 title: 微信小程序最新大招--- XR-Frame
 date: 2022-09-09 09:36:05
-permalink: /knowledge/
+permalink: /xr-frame/
 article: ture
 ---
 
