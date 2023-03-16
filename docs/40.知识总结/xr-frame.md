@@ -3,6 +3,7 @@ title: 微信小程序最新大招--- XR-Frame
 date: 2022-09-09 09:36:05
 permalink: /xr-frame/
 article: ture
+sidebar: auto
 ---
 
 微信小程序官方最近新推出了一套 AR/VR/3D 框架——xr-frame，他相比于传统的 3D 开发，`性能更高、效果更好并且开发更加便捷（开发体验和效率都提升了非常多）`。
