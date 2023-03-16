@@ -18,9 +18,9 @@ PS:安卓最好升级到 8.0.30+，否则只能一次性打开一个 xr-frame，
 
 所有的代码官方都开源了[源码地址](https://github.com/dtysky/xr-frame-demo)，这里我会跟大家一起把所有源码都过一遍，`只说明有技术难度的部分`
 
-## [基础案例/基础图形](https://link.zhihu.com/?target=https%3A//github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic)
+## 基础案例/基础图形
 
-对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/基础图形
+本文讲解 demo：[基础案例/基础图形](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/基础图形
 
 wxml 的完整代码如下
 
@@ -112,7 +112,7 @@ type 支持 4 种：环境光（360 度无死角的光照，不会产生阴影�
 
 ## 光源讲解
 
-本文讲解 demo：基础案例/多光源（https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-light），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/多光源
+本文讲解 demo：[基础案例/多光源](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-light)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/多光源
 
 ```xml
 <xr-light type="ambient" color="1 1 1" intensity="0.1" />
@@ -154,7 +154,7 @@ type 支持 4 种：环境光（360 度无死角的光照，不会产生阴影�
 
 ## 动画讲解
 
-本文讲解 demo：基础案例/动画 （https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-animation），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/动画
+本文讲解 demo：[基础案例/动画](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-animation)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/动画
 
 本节主要说明动画的一种实现方法：
 
@@ -309,7 +309,7 @@ xrFrameSystem.registerVideoTexture("test", vt);
 
 ## 交互讲解
 
-本文讲解 demo：基础案例/交互 （https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-touch），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/交互
+本文讲解 demo：[基础案例/交互](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-touch)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/交互
 
 效果如下，有两个 mesh：地球和月球，拖动地球可以旋转，拖动月球可以自由定位，地月在拖动时都会有轮廓
 ![]("./xr-frame-moon.webp")
@@ -496,7 +496,7 @@ handleTick: function({detail}) {
 
 ## 显示和图层
 
-本文讲解 demo：基础案例/显示和图层 （https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-visible-layer），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/显示和图层
+本文讲解 demo：[基础案例/显示和图层](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-visible-layer)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/显示和图层
 
 控制节点是否展示有两种办法：
 
@@ -551,7 +551,7 @@ layer 的值只能为 2^n，0<=n<=31，n 为几就说明这个元素与第几个
 
 ## 动态节点
 
-本文讲解 demo：基础案例/动态节点 （https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-shadow），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/动态节点
+本文讲解 demo：[基础案例/动态节点](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-shadow)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/动态节点
 
 本案例主要展示了如何通过 js 代码来控制增加和删除节点，效果如下：
 
@@ -644,7 +644,7 @@ if (element) {
 
 ## 渲染目标
 
-本文讲解 demo：基础案例/渲染目标 （https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-render-texture），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/渲染目标
+本文讲解 demo：[基础案例/渲染目标](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-render-texture)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/渲染目标
 
 先看下 demo 效果
 
@@ -705,7 +705,7 @@ scene.assets.addAsset("render-texture", "rt", rt);
 
 ## 粒子系统
 
-本文讲解 demo：基础案例/渲染目标 （xr-frame-demo/miniprogram/pages/scene-basic-particle at master · dtysky/xr-frame-demo），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/粒子系统
+本文讲解 demo：[基础案例/渲染目标](xr-frame-demo/miniprogram/pages/scene-basic-particle at master · dtysky/xr-frame-demo)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/粒子系统
 
 粒子系统是一套标准化的实现粒子效果的系统，他可以通过定义参数的形式，来描述粒子的各种效果。他具有：
 
@@ -868,7 +868,7 @@ subEmitter.state 可以设置两种：
 
 ## 后处理
 
-本文讲解 demo：基础案例/后处理 （https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-postprocessing），对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/后处理
+本文讲解 demo：[基础案例/后处理](https://github.com/dtysky/xr-frame-demo/tree/master/miniprogram/pages/scene-basic-postprocessing)，对应官方小程序（名字：小程序示例）的交互动画/xrframe/基础案例/后处理
 
 对于一些直接作用于相机的效果，比如水滴落到镜头上、被闪光弹闪白、眩晕/模糊的镜头效果，都可以用后处理实现，下面是 demo 给出的一些后处理效果：
 
