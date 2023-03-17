@@ -1,4 +1,5 @@
-Want to keep this project going? Please donate generously [https://www.buymeacoffee.com/derekazhang](https://www.buymeacoffee.com/derekazhang)
+支持一下，给我买杯咖啡 [![](https://www.buymeacoffee.com/?utm_source=logo&utm_medium=header&utm_campaign=exp)](https://www.buymeacoffee.com/derekazhang)
+支持一下，给我买杯咖啡<a href="https://www.buymeacoffee.com/derekazhang"><img src="/img/coffee.svg"></a>
 
 [网站地址](https://derekazhang.github.io/fe-skill/)
 

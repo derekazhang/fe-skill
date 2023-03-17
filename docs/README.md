@@ -2,8 +2,8 @@
 home: true
 heroText: FE-Skill
 tagline: 前端全栈进阶笔记 & 面试指南
-actionText: 开始学习 →
-actionLink: /
+actionText: 给大佬买杯咖啡☕️ →
+actionLink: https://www.buymeacoffee.com/derekazhang
 features:
   - title: 详细深入
     details: 每一个知识点都会查阅大量的资料，力求做到详细且深入
