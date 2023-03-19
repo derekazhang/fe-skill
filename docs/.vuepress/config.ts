@@ -31,6 +31,7 @@ module.exports = {
       { text: "摘录", link: "/excerpt/" },
       { text: "关于", link: "/about/" },
     ],
+    sidebar: "auto",
     // sidebar: [
     //   {
     //     title: "CSS", // 必要的
